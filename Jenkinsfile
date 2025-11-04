@@ -52,7 +52,7 @@ pipeline {
                     node_modules/.bin/netlify --version
                     echo "Deploying to Production. Site ID : $NETLIFY_SITE_ID"
                     node_modules/.bin/netlify status
-                    npx netlify deploy --prod --dir=build --message "Deployed from Jenkins CI"
+                    node_modules/.bin/netlify deploy --prod --dir=build --message "Deployed from Jenkins CI"
                 '''
             }
         }
