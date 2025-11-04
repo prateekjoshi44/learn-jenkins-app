@@ -15,7 +15,7 @@ function App() {
           Learn Jenkins on Udemy
         </a>
       </header>
-      <p>Application version: 2</p>
+      <p>Application version: 3</p>
     </div>
   );
 }
